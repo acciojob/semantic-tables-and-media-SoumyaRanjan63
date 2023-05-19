@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">List of medias</th>
+        </tr>
+        <tr class="row1">
+          <th>Roll number</th>
+          <th>Names</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>
+            <img
+              src="https://picsum.photos/id/123/200/300"
+              alt="img logo"
+              height="50px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <video controls width="200px">
+              <source
+                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            <audio
+              src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+              controls
+            ></audio>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
